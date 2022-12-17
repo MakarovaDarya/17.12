@@ -22,7 +22,7 @@ namespace _13
             get { return bankTransactions[index]; }
             set { bankTransactions[index] = value; }
         }
-        public BankTransaction(decimal Balance,TypeTransaction type)
+        public BankTransaction(decimal balance,TypeTransaction type)
         {
             this.balance = balance; 
             this.type = type;
